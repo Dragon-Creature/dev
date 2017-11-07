@@ -1,0 +1,5 @@
+#!/bin/bash
+
+test_name="$1"
+
+GOTESTS=$test_name make test-it
